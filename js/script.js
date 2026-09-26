@@ -90,7 +90,7 @@ if (lang !== null) {
       subMenu.previousElementSibling.classList.toggle('_show');
    });
 } else {
-   console.log('Селектор не найдён.');
+   console.log('Selector not found.');
 }
 
 document.addEventListener('click', (e) => {
