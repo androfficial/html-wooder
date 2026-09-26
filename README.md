@@ -2,7 +2,7 @@
 
 Landing page for a woodworking studio that scrolls one full-screen section at a time, with entrance animations and videos in a lightbox. Built in July 2021 as a learning project.
 
-**Live demo:** [androfficial.github.io/wooder](https://androfficial.github.io/wooder/)
+**Live demo:** [androfficial.github.io/html-wooder](https://androfficial.github.io/html-wooder/)
 
 ## Features
 
@@ -26,8 +26,8 @@ Landing page for a woodworking studio that scrolls one full-screen section at a 
 The repository holds the compiled site, with no dependencies and no build step. The icons come from an external SVG sprite that browsers do not load from `file://`, so serve the folder over HTTP, for example with `npx serve .` on Node.js 18 or later.
 
 ```bash
-git clone https://github.com/androfficial/wooder.git
-cd wooder
+git clone https://github.com/androfficial/html-wooder.git
+cd html-wooder
 npx serve .
 ```
 
